@@ -1,0 +1,372 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuente local */
+@font-face {
+  font-family: "Raleway";
+  src: url("../asset/fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+/* General */
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  background-image: url("../asset/background/morocco.png");
+  background-repeat: repeat;
+  position: relative;
+}
+
+main {
+  width: 80%;
+  padding: 30px;
+  margin: 60px auto 30px;
+  background-color: #DEF0F4;
+}
+
+footer {
+  background-color: #DEF0F4;
+  margin-bottom: 50px;
+  padding: 15px;
+  text-align: center;
+}
+
+article {
+  margin: 20px 0;
+}
+
+/* Header */
+header {
+  background-color: #DEF0F4;
+  margin: 0px auto 20px;
+  padding: 10px 30px;
+  width: 80%;
+  /* position: fixed;
+  top: 0px; */
+  z-index: 100;
+}
+
+.nav-list {
+  list-style: none;
+  text-align: right;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  border: 1px solid black;
+  padding: 2px;
+  margin: 3px;
+
+}
+
+.nav-link:hover {
+  background-color: aliceblue;
+  color: #2C5269;
+  padding: 15px;
+  font-weight: bolder;
+  font-size: larger;
+  transition: 0.5s;
+  }
+
+.nav-link:active {
+  color: #ECF4F4;
+  background-color: #256673;
+  transition: 0s;
+} /* Enlaces activos */
+
+.nav-brand {
+  margin-right: auto;
+  width: 50%;
+  height: 100%;
+}
+
+nav {
+  margin-left: auto;
+  width: 49%;
+}
+
+.nav-icon {
+  margin: auto 0;
+}
+
+.headerIcon {
+  width: 50px;
+  border-radius: 50%;
+}
+
+header div,
+header nav,
+.nav-icon,
+nav ul li {
+  display: inline-block;
+}
+
+
+
+
+/* img {
+  width: 100px;
+} */
+
+ul, li, a {
+  list-style: none;
+  text-decoration: none;
+}
+
+#animate {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Footer */
+.footer-div-brand, .footer-div-social, .footer-div-contacto, .footer-div-subscribe {
+  width: 200px;
+  height: 206px;
+  display: inline-block;
+  margin-top: 0;
+  text-align: left;
+}
+
+.footer-div-subscribe p {
+  font-size: small;
+}
+
+.footer-div-subscribe-cont {
+  margin: 5px;
+  padding: 1px;
+}
+footer a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #3b3b4f;
+}
+
+footer a:active {
+  background-color: #3b3b4f;
+  color: #DEF0F4;
+  padding: 2px;
+}
+
+footer li:active {
+  margin: 4px 0;
+  align-items: left;
+}
+/* Animate */
+
+.animate-article {
+  position: relative; 
+}
+
+.animate-div-h2 {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 30%;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: rgb(239, 236, 236, 0.5);
+  text-align: justify;
+}
+.animate-article-sub {
+  text-align: center;
+}
+
+.animate-article-sub input {
+  width: 80%;
+  background-color: rgba(132, 132, 132, 0.475);
+  color: white;
+  font-weight: bold;
+}
+
+a {
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+/* .animate-div-h2 h2 {
+  font-weight: 500;
+  font-size: ;
+} */
+
+.animate-div-h2 p {
+  margin: 15px 0;
+}
+
+.animate-article-link {
+  display: inline-block;
+  list-style: none;
+}
+
+.animate-article-div-ul {
+  text-align: center;
+}
+.animate-article-img {
+  width: 20px;
+  text-align: justify;
+  margin: 5px 20px;
+}
+
+.animate-article-sub input {
+  margin: 0 auto;
+  width: 80%;
+  height: 20px;
+  border-style: none;
+  border: 1px solid #3b3b4f;
+  border-radius: 2px;
+  
+}
+
+.animate-article-sub button {
+  width: 50%;
+  height: 25px;
+  border-radius: 2px;
+  background-color: #3b3b4f;
+  color: white;
+  margin: 15px;
+}
+.button-submit:hover {
+  background-color: #4f4f53;
+}
+
+/* 
+Animate main indice general */
+
+.animate-main-indice-items {
+  display: inline-block;
+  width: 70%;
+}
+
+.animate-main-indice-img {
+  width: 29%;
+  object-fit: cover;
+}
+
+/* Viajecito */
+.viajecito-div-link {
+  display: inline-block;
+}
+
+.viajecito-div-indice {
+  margin: 15px 0;
+  
+}
+
+.viajecito-div-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.viajecito-img-article {
+  width: 100%;
+}
+
+.viajecito-article {
+  margin-top: 70px;
+}
+
+/* La Idea */
+.laidea-div {
+  display: inline-block;
+  margin: 15px 0 15px;
+
+}
+
+.laidea-p {
+  width: 70%;
+  display: inline-block
+}
+
+.laidea-img {
+  width: 250px;
+  object-fit: cover;
+  display: inline-block;
+}
+.caratula-div {
+  position:relative;
+  margin-bottom: 30px;
+}
+
+.caratula-texto {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  background-color: rgb(239, 236, 236, 0.7);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+/* Recursos */
+.recursos-indice {
+  margin: 20px 0;
+}
+.recursos-article {
+  margin-top: 50px;
+}
+
+.recursos-img {
+  height: 250px;
+  width: auto;
+  object-fit: cover;
+
+}
+
+/* Contacto */
+
+.contacto-img {
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+  margin: 15px 15px;
+  display: inline-block;
+}
+
+/* Formulario */
+.form {
+  width: 70%;
+  margin: 40px 0;
+  background-color:rgb(185, 241, 254);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+textarea,
+input,
+label,
+select {
+  display: block;
+  font-family: "Raleway", sans-serif;
+}
+
+label {
+  margin: 10px 5px;
+}
+
+
+/* -----*/
+
+.map-div {
+  margin-top: 50px;
+}
+iframe {
+  width: 400px;
+  height: 300px;
+}
+
+.arriba {
+  position: sticky;
+  bottom: 300px;
+  right: 300px;
+ 
+}

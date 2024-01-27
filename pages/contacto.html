@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- ESTILO-->
+  <link rel="stylesheet" href="../css/styles.css" />
+
+  <!-- ICONO-->
+  <link rel="shortcut icon" href="../asset/img/favicon.jpg">
+  <title>De viaje en Portugal</title>
+  
+</head>
+
+<body>
+
+  <header>  
+    <div class="nav-brand">
+      <img class="nav-icon headerIcon" src="../asset\img\favicon.jpg" alt="logo. Imagen de un avion">
+      <h1 class="nav-icon">Emigrar a Portugal</h1>
+    </div>
+    <nav>
+      <ul class="nav-list">
+        <li><a class="nav-link" href="../index.html">Inicio</a></li>
+        <li><a class="nav-link" href="laIdea.html" >La idea</a></li>
+        <li><a class="nav-link" href="recursos.html">Recursos</a></li>
+        <li><a class="nav-link" href="viajecitos.html">Viajecitos</a></li>
+        <li><a class="nav-link" href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div>
+        <h2>PARTICIPA!</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quas, minus nisi rerum consectetur libero commodi asperiores, tempora fugit magnam similique ullam explicabo laboriosam iste amet numquam, delectus quaerat harum?</p>
+        <div>
+          <img class="contacto-img" src="../asset/img/surf.jpg" alt="personas con tablas de surf">
+          <img class="contacto-img" src="../asset/img/laIdea.jpg" alt="imagen de calle peatonal en Portugal con bares en un cielo despejado">
+        </div>
+      </div>
+
+      <form id="form" class="form" action="" method="post" enctype="text/plain">
+        <h3>Contactanos!</h3>
+        <fieldset>
+          <legend>Datos del contacto</legend>
+            <label for="form-name">Nombre:<input id="form-name" name="nombre" placeholder="Ingrese su nombre" required></label>
+            <label for="form-email">Email:<input type="email" id="form-email" name="email" placeholder="Ingrese su email" required></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Motivo de contacto</legend>
+          <label for="select">Seleccione una opcion:  
+            <select id="select" required>
+                <option value="consulta">Consulta</option>
+                <option value="experiencia">Contar tu experiencia</option>
+                <option value="agradecimiento/donaciones">Agradecimiento / Donaciones</option>
+                <option value="otro">Otro asunto</option>
+            </select>
+          </label>
+        <label for="form-coment">Mensaje:<textarea id="form-coment" placeholder="Escriba aqui" rows=”10” cols=”100”  required></textarea></label>
+      </fieldset>
+        <input type="submit" value="Enviar"   name="mensaje"/>
+    </form>
+
+    <div class="map-div">
+      <h3>Portugal, ¿donde?</h3>
+      <p>Acá estamos...</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13300666.478501316!2d-29.434839202832368!3d35.52323871163527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb32242dbf4226d5%3A0x2ab84b091c4ef041!2sPortugal!5e0!3m2!1ses!2spt!4v1705091511170!5m2!1ses!2spt" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Mapa de Portugal y sus islas provisto por GoogleMaps</iframe>
+    </div>
+
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-div-brand">
+      <img class="headerIcon" src="../asset/img/favicon.jpg">
+      <h3>De viaje en Portugal</h3>
+      <p>&copy; Copyright 2024</p>
+    </div>
+    <div class="footer-div-social">
+      <h4>Social</h4>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Youtube</a></li>
+      </ul>
+    </div>
+    <div class="footer-div-contacto">
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="pages/contacto.html#form">Email</a></li>
+        <li><a href="pages/contacto.html#form">Donaciones</a></li>
+        <li><a href="pages/laIdea.html">Sobre mi</a></li>
+      </ul>
+    </div>
+    <div class="footer-div-subscribe">
+      <h4 class="footer-div-subscribe-cont">Subscribite a nuestro Newsletter</h4>
+      <input class="footer-div-subscribe-cont" type="email" required placeholder="Ingresa tu email" id="Newsletter-email">
+      <p class="footer-div-subscribe-cont">Mantenete al dia y conoce antes que todos las ultimas actualizaciones de nuestra web. Dale a Subscribir!</p>
+      <input type="submit" value="Subscribir!">
+    </div>
+  </footer>
+</body>
+</html>

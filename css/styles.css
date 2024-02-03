@@ -329,24 +329,6 @@ footer {
 .terminosYcondiciones {
   display: inline-block;
 }
-/* .footer-div-social
-
-.footer-div-brand, .footer-div-social, .footer-div-contacto, .footer-div-subscribe {
-  width: 200px;
-  height: 206px;
-  display: inline-block;
-  margin-top: 0;
-  text-align: left;
-}
-
-.footer-div-subscribe p {
-  font-size: small;
-}
-
-.footer-div-subscribe-cont {
-  margin: 5px;
-  padding: 1px; 
-} */
 
 footer a:hover {
   text-decoration: underline;
@@ -366,54 +348,6 @@ footer li:active {
 }
 
 
-
-
-/* .nav-list {
-  list-style: none;
-  text-align: right;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: black;
-  font-weight: 600;
-  border: 1px solid black;
-  padding: 2px;
-  margin: 3px;
-
-}
-
-.nav-link:hover {
-  background-color: aliceblue;
-  color: #2C5269;
-  padding: 15px;
-  font-weight: bolder;
-  font-size: larger;
-  transition: 0.5s;
-  }
-
-.nav-link:active {
-  color: #ECF4F4;
-  background-color: #256673;
-  transition: 0s;
-} 
-
-.nav-brand {
-  margin-right: auto;
-  width: 50%;
-  height: 100%;
-}
-
-nav {
-  margin-left: auto;
-  width: 49%;
-}
-
-.nav-icon {
-  margin: auto 0;
-} 
-*/
-
 .headerIcon {
   width: 100px;
   border-radius: 50%;
@@ -427,14 +361,11 @@ ul, li, a {
 
 
 
-
 a {
   margin: 0px;
   padding: 0px;
   color: black;
 }
-
-
 
 
 .animate-div-h2 p {
@@ -882,25 +813,6 @@ footer {
   margin: 0;
 }
 
-
-/* .footer-div-social
-
-.footer-div-brand, .footer-div-social, .footer-div-contacto, .footer-div-subscribe {
-  width: 200px;
-  height: 206px;
-  display: inline-block;
-  margin-top: 0;
-  text-align: left;
-}
-
-.footer-div-subscribe p {
-  font-size: small;
-}
-
-.footer-div-subscribe-cont {
-  margin: 5px;
-  padding: 1px; 
-} */
 
 footer a:hover {
   text-decoration: underline;
